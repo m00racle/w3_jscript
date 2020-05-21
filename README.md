@@ -15,4 +15,5 @@ The file is what_can_js_do.html while it has some resources namely:
   2. script\bulb.js which covers the light bulb control case.
 
   These two scripts files are here to simulate multiple JavaScript file used for the same HTML file.
-  
+
+Note: this code also being cloned into other PC for git course testing.
