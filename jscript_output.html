@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Java Script Output</title>
+</head>
+<body>
+  <button type="button" name="button">
+    <a href="https://www.w3schools.com/js/js_output.asp" target="_blank" style="text-decoration:inherit">W3 Course</a>
+  </button>
+  <br><br>
+  <h1>My First Web Page</h1>
+    <p>My First Paragraph</p>
+
+    <p>Never call document.write after the document has finished loading.
+      It will overwrite the whole document.</p>
+
+    <p id="demo_1"></p>
+    <button type="button" name="overwrite_button" onclick="write_late(5,7)">
+      overwrite me
+    </button><br><br>
+    <p style=display:inline> this button will call alert box window: </p>
+
+    <button type="button" name="alert_button" onclick="create_alert(8,8)">alert me!</button>
+    <br><br><br>
+
+    <h2>
+      Activate Debugging
+    </h2>
+
+    <p>F12 on your keybord will activate debugging.</p>
+    <p>Then select "Console" in the debugger menu.</p>
+    <p>Then click Run again.</p>
+
+    <p>
+      JavaScript does not have any print object or print methods.
+      You cannot access output devices from JavaScript.
+      The only exception is that you can call the window.print()
+      method in the browser to print the content of the current window.
+     </p>
+     <button type="button" name="print_button" onclick="window.print()">Print page</button>
+     <br><br>
+
+     <script type="text/javascript" src="script\output.js">
+       //the scipt is in script/output.js
+     </script>
+
+</body>
+</html>
