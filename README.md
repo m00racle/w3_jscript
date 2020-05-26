@@ -17,3 +17,8 @@ The file is what_can_js_do.html while it has some resources namely:
   These two scripts files are here to simulate multiple JavaScript file used for the same HTML file.
 
 Note: this code also being cloned into other PC for git course testing.
+
+## Lesson 2 : Javascript Data Types
+The objective of this course firstly to show what if a number plus string
+TODO: this is still not working while using external script file.
+      only when using number plus number the result can be displayed
