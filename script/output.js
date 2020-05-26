@@ -4,7 +4,7 @@
 
 //let's train to create variables
 var a = 5, b = 9;
-document.getElementById("demo_1").innerHTML = a + b + 6;
+//document.getElementById("demo_1").innerHTML = a + b + 6;
 //this can be also use :
 //document.write(5+6);
 
@@ -39,7 +39,8 @@ function data_types(xFeed, yFeed, zFeed) {
 }
 
 //this trying to just add the innerHTML straight from the load:
-document.getElementById("data_demo1").innerHTML = 16 + "Volvo";
+var angka = 16, huruf = "Honda"
+document.getElementById("data_demo1").innerHTML = angka + huruf;
 // TODO: this also failed to work! Only internal script was able to produce 16 + "Volvo"!
 //asnwer the global command document.getElementById is alredy pre occupied above
-//just comment out that syntax to make this works !
+//just comment out that syntax to make this works! this is proven after doing just that
