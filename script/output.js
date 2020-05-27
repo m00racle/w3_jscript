@@ -4,7 +4,7 @@
 
 //let's train to create variables
 var a = 5, b = 9;
-//document.getElementById("demo_1").innerHTML = a + b + 6;
+document.getElementById("demo_1").innerHTML = a + b + 6;
 //this can be also use :
 //document.write(5+6);
 
