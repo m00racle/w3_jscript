@@ -6,23 +6,12 @@ sript but apparently that is not a good idea.
 
 therefore I make a separate file just to contain the scripts used in the
 Javascript data type course.
+NOTE: in the end I only add scripts that needed to run in page loading since the output.js
+already handles the jscript_output.html file, thus this 16 + "Volvo" must be placed here
 
-Please check if the html file is already connected to this script file !
+The function that handles the function when the result button is pressed it still located
+in the output.js file 
 */
-
-/* Javascript Data Types:============================================
-Now we will starts to learn about data types:
-basically there are three data types in basic formats:
-1. number
-2. String
-3. Objects
-*/
-
-function data_types(x, y, z) {
-  //this function will get output for different data types and see what data type is the result
-  var res = x + y + z;
-  document.getElementById("data_demo1").innerHTML = res;
-}
 
 //this trying to just add the innerHTML straight from the load:
 var angka = 16, huruf = "Volvo"

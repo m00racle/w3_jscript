@@ -22,3 +22,18 @@ function write_late(x, y) {
   //the whole web page since it was called after the page is done loading*/
     document.write(x+y);
 }
+
+/* Javascript Data Types:============================================
+Now we will starts to learn about data types:
+basically there are three data types in basic formats:
+1. number
+2. String
+3. Objects
+*/
+
+function data_types(x, y, z) {
+  //this function will get output for different data types and see what data type is the result
+
+  var res = x + y + z;
+  document.getElementById("data_demo1").innerHTML = res;
+}
