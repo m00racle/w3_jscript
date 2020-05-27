@@ -22,3 +22,7 @@ Note: this code also being cloned into other PC for git course testing.
 The objective of this course firstly to show what if a number plus string
 TODO: this is still not working while using external script file.
       only when using number plus number the result can be displayed
+      SOLVED: the problem is in the HTML code (js_data_type.html) that the buttons called
+      the function using attribute onclick = "data_types(16, 32, "Seat")" thus it creates
+      conflicting "" between the onclick attribute.
+      It has beed fixed to onclick = ""data_types(16, 32, 'Seat')""
