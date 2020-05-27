@@ -20,9 +20,19 @@ Note: this code also being cloned into other PC for git course testing.
 
 ## Lesson 2 : Javascript Data Types
 The objective of this course firstly to show what if a number plus string
-TODO: this is still not working while using external script file.
+NOTE : this is still not working while using external script file.
       only when using number plus number the result can be displayed
       SOLVED: the problem is in the HTML code (js_data_type.html) that the buttons called
       the function using attribute onclick = "data_types(16, 32, "Seat")" thus it creates
       conflicting "" between the onclick attribute.
       It has beed fixed to onclick = ""data_types(16, 32, 'Seat')""
+
+The part of this course is finished by examining number plus string:
+  1. number + string => 16 + "Volvo" = 16Volvo
+  2. from left to right => 16 + 32 + "Seat" = 48Seat
+  3. from left to right => "Toyota" + 16 + 32 = Toyota1632
+
+all of these already tested using two script:
+  1. script\data_types.js => consists only global command which loaded with the html file (and refresh)
+  2. script\output.js => consists the output function for two results button.
+  
